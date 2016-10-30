@@ -1,3 +1,5 @@
+(clear)
+
 (define (cubito)
     ;    (hint-none)
     ;    (hint-wire)
@@ -5,7 +7,7 @@
         (colour (rndvec))
         (build-cube))
     )
-(clear)
+
 (define (cubitos c)
     (cond ((not(zero? c))
             (rotate (rndvec))
